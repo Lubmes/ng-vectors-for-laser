@@ -1,0 +1,10 @@
+ <div *ngFor="let vector of vectorsByZoomIDByAimID | type : 'zoom'" 
+    [class.selected]="vector === selectedZoom" 
+    [class.unselected]="selectedZoom && vector != selectedZoom"
+    (click)=onSelect(vector)
+    class="zoom">
+    
+    <h3>{{vector.title}}</h3>
+    <img src="{{vector.url}}" alt="" class="img-7by6">
+    
+</div>

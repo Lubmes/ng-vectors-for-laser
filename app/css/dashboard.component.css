@@ -1,0 +1,16 @@
+.covers {
+  margin-top: 1rem; 
+}
+/* Vectors */
+.cover {
+  width: 12rem;
+  max-width: 12rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+.cover img:hover {
+  box-shadow: 0px 0px 5px #B4B4B4;
+  cursor: pointer;
+  cursor: hand;
+}

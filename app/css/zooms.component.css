@@ -1,0 +1,36 @@
+/* In-sight styles */
+.zoom {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+/* Initieel - titel, afbeelding, hover */
+.zoom h3 {
+  color: #69056E;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+.zoom img {
+  border: 1px solid #000;
+}
+.zoom img:hover {
+  box-shadow:0px 0px 5px #B4B4B4;
+  cursor: pointer;
+  cursor: hand;
+}
+/* Na selectie - titel, afbeelding, hover */
+.selected h3 {
+  color: #a208aa;
+}
+.selected img {
+  box-shadow: 0px 0px 5px #369;
+}
+.selected.zoom img:hover {
+  box-shadow: 0px 0px 7px #369;
+}
+/* Na selectie - rest */
+.unselected {
+  opacity: 0.35;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="330" height="180" viewBox="0, 0, 330, 180">
+  <g id="Berg_V" display="none" opacity="0.296">
+    <path d="M150,180 L250,160 L180,180 z" fill="#FF5600"/>
+    <path d="M180,180 L250,160 L330,180 z" fill="#788AFF"/>
+  </g>
+  <g id="Berg_IV" opacity="0.451">
+    <path d="M120,180 L310,180 L220,160 z" fill="#788AFF"/>
+    <path d="M60,180 L220,160 L120,180 z" fill="#FF5600"/>
+  </g>
+  <g id="Berg_III" opacity="0.548">
+    <path d="M80,180 L150,150 L280,180 z" fill="#788AFF"/>
+    <path d="M-0,180 L150,150 L80,180 z" fill="#FF5600"/>
+  </g>
+  <g id="Berg_II" opacity="0.752">
+    <path d="M60,180 L80,140 L230,180 z" fill="#788AFF"/>
+    <path d="M20,180 L80,140 L60,180 z" fill="#FF5600"/>
+  </g>
+  <g id="Berg_I" opacity="0.852">
+    <path d="M30,180 L30,140 L190,180 z" fill="#788AFF"/>
+    <path d="M-0,180 L30,140 L30,180 z" fill="#FF5500"/>
+  </g>
+  <g id="L">
+    <path d="M70,70 L80,60 L100,80 z" fill="#788AFF"/>
+    <path d="M60,80 L70,70 L90,90 z" fill="#99A7FF"/>
+    <path d="M90,50 L100,40 L120,60 z" fill="#99A7FF"/>
+    <path d="M90,90 L100,80 L120,100 z" fill="#99A7FF"/>
+    <path d="M100,80 L110,70 L130,90 z" fill="#788AFF"/>
+    <path d="M120,100 L130,90 L150,110 z" fill="#778AFF"/>
+    <path d="M120,60 L100,40 L130,50 z" fill="#C30C0C" fill-opacity="0.85"/>
+    <path d="M110,70 L90,50 L120,60 z" fill="#C30C0C" fill-opacity="0.75"/>
+    <path d="M100,80 L80,60 L110,70 z" fill="#C30C0C" fill-opacity="0.55"/>
+    <path d="M90,90 L70,70 L100,80 z" fill="#C30C0C" fill-opacity="0.45"/>
+    <path d="M120,100 L100,80 L130,90 z" fill="#C30C0C"/>
+    <path d="M80,60 L90,50 L110,70 z" fill="#CCD3FF"/>
+    <path d="M130,50 L110,30 L140,40 z" fill="#C30C0C"/>
+    <path d="M110,30 L120,20 L140,40 z" fill="#788AFF"/>
+    <path d="M100,40 L110,30 L130,50 z" fill="#99A7FF"/>
+  </g>
+  <g id="ub">
+    <path d="M160.5,70.5 L170.5,100.5" fill-opacity="0" stroke="#FF5500" stroke-width="1"/>
+    <path d="M190.5,80.5 L180.5,100.5" fill-opacity="0" stroke="#FF5500" stroke-width="1"/>
+    <path d="M210,70 L230,80 L210,100 z" fill="#FF5500"/>
+    <path d="M180.5,100.5 L170.5,100.5" fill-opacity="0" stroke="#FF5500" stroke-width="1"/>
+    <path d="M160.5,70.5 L180.5,100.5" fill-opacity="0" stroke="#FF5500" stroke-width="1"/>
+    <path d="M190.5,80.5 L170.5,100.5" fill-opacity="0" stroke="#FF5500" stroke-width="1"/>
+    <path d="M210,50 L220,60 L210,70 z" fill="#FF5500" fill-opacity="0.85"/>
+  </g>
+</svg>

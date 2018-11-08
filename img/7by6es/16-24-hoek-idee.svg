@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="350" height="300" viewBox="0, 0, 350, 300">
+  <g id="init_raster" display="none">
+    <path d="M50.5,0.5 L50.5,300.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M150.5,0.5 L150.5,300.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M100.5,0.5 L100.5,300.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M200.5,0.5 L200.5,300.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M300.5,0.5 L300.5,300.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M250.5,0.5 L250.5,300.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M0.5,50.5 L350.5,50.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M0.5,100.5 L350.5,100.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M0.5,150.5 L350.5,150.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M0.5,200.5 L350.5,200.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+    <path d="M0.5,250.5 L350.5,250.5" fill-opacity="0" stroke="#AD80E0" stroke-width="1"/>
+  </g>
+  <g id="inhoud">
+    <path d="M184.456,169.824 L174.725,165.793 L167.277,158.345 L163.246,148.613 L163.246,138.08 L167.277,128.349 L174.725,120.901 L184.456,116.87 L194.989,116.87 L204.721,120.901 L212.169,128.349 L216.199,138.08 L216.199,148.613 L212.169,158.345 L204.721,165.793 L194.989,169.824 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M176.452,244.147 L150.815,237.278 L127.83,224.007 L109.062,205.24 L95.792,182.254 L88.922,156.617 L88.922,130.076 L95.791,104.439 L109.062,81.454 L127.83,62.686 L150.815,49.416 L176.452,42.546 L202.993,42.546 L228.63,49.415 L251.615,62.686 L270.383,81.454 L283.654,104.439 L290.523,130.076 L290.523,156.617 L283.654,182.254 L270.383,205.239 L251.616,224.007 L228.63,237.278 L202.993,244.147 z" fill-opacity="0" stroke="#B4B4B4" stroke-width="1"/>
+    <path d="M167.277,158.345 L65.29,240.408" fill-opacity="0" stroke="#FF7304" stroke-width="1"/>
+    <path d="M194.989,169.824 L204.386,257.5" fill-opacity="0" stroke="#FF7304" stroke-width="1"/>
+    <path d="M163.246,138.08 L61.612,127.202" fill-opacity="0" stroke="#FF7304" stroke-width="1"/>
+    <path d="M194.989,116.87 L202.993,42.546" fill-opacity="0" stroke="#FF7304" stroke-width="1"/>
+    <path d="M204.386,257.5 C204.386,257.5 145.706,257.5 145.706,257.5 L98.522,251.245 L65.29,240.408 L51.339,198.72 L47.778,158.966 L61.612,127.202 L88.922,85.065 L123.45,60.432 L150.815,49.416 L176.452,42.546 L202.993,42.546 L255.207,60.432 L281.024,80.316 L301.5,116.87 L296.158,165.6 L281.024,198.72 L255.207,226.318 L204.386,257.5 z" fill-opacity="0" stroke="#38079E" stroke-width="1"/>
+  </g>
+</svg>

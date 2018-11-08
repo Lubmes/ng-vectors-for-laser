@@ -1,0 +1,158 @@
+
+html { 
+  font-size: 62.5%; 
+  padding: 0
+}
+/* Original Master Styles */
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa; 
+  cursor: auto;
+}
+
+/* items class */
+.items {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+.items li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.items li:hover {
+  color: #607D8B;
+  left: .1em;
+}
+.items li.selected:hover {
+  background-color: #BBD8DC;
+  color: white;
+}
+.items .text {
+  position: relative;
+  top: -3px;
+}
+.items {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+.items li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.items li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.items li.selected {
+  background-color: #CFD8DC;
+  color: white;
+}
+
+.items li.selected:hover {
+  background-color: #BBD8DC;
+}
+.items .text {
+  position: relative;
+  top: -3px;
+}
+.items .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+/* Overrides */
+p, h1, h2, h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+body {
+  margin-left: 1.8rem; 
+  font-size: 1.4rem; 
+}
+body, input[text], button { 
+  color: #888; 
+  font-family: Cambria, Georgia; 
+}
+h1 {
+  color: #0059b3;
+  font-size: 2.4rem; 
+  width: 12rem;
+  display: inline-block;
+}
+h2, h3 {
+  font-weight: lighter;
+}
+header h2 {
+  color: #69056E;
+  font-size: 1.65rem;
+  margin-left: 1.8rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+}
+h3 {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: thin;
+  color: #69056E;
+}
+p {
+  font-size: 1.3rem;
+}
+
+/* Image styles standard */
+img {
+  display: block;
+  border: 2px solid none;
+}
+.img-6by5 {
+  width: 12rem;
+  max-width: 12rem;
+  height: 10rem;
+}
+.img-7by6 {
+  width: 14rem;
+  max-width: 14rem;
+  height: 12rem;
+}

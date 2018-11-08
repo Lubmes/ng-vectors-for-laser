@@ -1,0 +1,17 @@
+<div class="virtual">
+    <h3>{{currentVirtual.title}}</h3>
+    <div *ngFor="let vector of vectorsByVirtualID | type : 'search'" 
+    class="{{vector.type}}"
+    (click)=gotoExpand(vector)>
+      <img src="{{vector.url}}" alt="" class="img-7by6">
+      <p>{{vector.title}}</p>
+    </div>
+    <div *ngFor="let vector of vectorsByVirtualID | type : 'part'" 
+    class="{{vector.type}}"
+    (click)=gotoExpand(vector)>
+      <img src="{{vector.url}}" alt="" class="img-7by6">
+      <p>{{vector.title}}</p>
+    </div>
+</div>
+
+<expand [currentExpandable]="selectedVector"></expand>

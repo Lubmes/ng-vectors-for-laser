@@ -1,0 +1,16 @@
+<div class="covers">
+    <header><h2>Dashboard</h2></header>
+    <div class="cover" 
+        *ngFor="let cover of covers" 
+        [class.selected]="cover === selectedCover" 
+        (click)="gotoInSight(cover)">
+        
+        
+
+        <div *ngFor="let vector of vectorsByCoverType| cover : cover">
+            <img src="{{vector.url}}" alt="" class="img-6by5">
+            <p>{{cover.title}}</p>
+        </div>
+        
+    </div>
+</div>

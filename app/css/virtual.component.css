@@ -1,0 +1,31 @@
+h3 {
+  color: #a208aa;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.9rem;
+  padding: 0.2rem;
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+/* Vectors */
+img {
+  margin-bottom: 0;
+  cursor: pointer;
+  cursor: hand;
+}
+.search img {
+  border: 1px solid #AA0B0B;
+}
+.search {
+  color: #AA0B0B;
+}
+.part img {
+  border: 1px solid #1FBE65;
+}
+.part {
+  color: #1FBE65;
+}

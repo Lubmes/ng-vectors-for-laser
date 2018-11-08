@@ -1,0 +1,7 @@
+<div *ngIf="currentAim" class="in-sight">
+    <header><h2>{{currentAim.title}}</h2></header>
+      
+    <aim [currentAim]="currentAim"></aim>
+    <zooms [currentAim]="currentAim" (zoomSelect)="onSelectingZoom($event)"></zooms>
+    <virtuals *ngIf="selectedZoom" [currentZoom]="selectedZoom"></virtuals>
+</div>

@@ -1,0 +1,26 @@
+<div class="toggle-nav-button"
+    (click)="toggle()"
+    [ngClass]="{pressed: navVis}">
+         ☰
+</div>
+
+<nav *ngIf="navVis">
+    <ul>
+        <li>
+            <a [routerLink]="['Dashboard']" (click)="toggle()">
+                <h2>Dashboard</h2>
+            </a>
+        </li>
+         <li>
+            <a href="#">
+                <h2>About</h2>
+            </a>
+        </li>
+    </ul>
+    
+    <img src="img/layout/lubmes-atom.svg" class="logo">
+</nav>
+
+<router-outlet></router-outlet>
+
+<div *ngIf="navVis" class="mask"></div>

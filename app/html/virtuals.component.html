@@ -1,0 +1,7 @@
+<div *ngIf="currentZoom">
+      
+  <div *ngFor="let virtual of virtualsByZoomID" class="virtual">
+    <virtual [currentVirtual]="virtual"></virtual>
+  </div>
+      
+</div>

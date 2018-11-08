@@ -1,0 +1,13 @@
+<div *ngIf="currentExpandable"
+class="container-7by6-expand {{currentExpandable.type}}">
+
+    <div class="close-expand-button"
+    (click)="closeExpand()">
+        <p>×</p> 
+    </div> 
+    <p>{{currentExpandable.title}}</p>
+    <img src="{{currentExpandable.url}}" alt="" class="img-7by6-expand">
+    
+</div>
+
+<div *ngIf="currentExpandable" id="mask"></div>
